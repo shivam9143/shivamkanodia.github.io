@@ -1,0 +1,221 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Shivam}{Kanodia}{ \urlstyle{same}\url{http://shivam.somee.com} \\
+\href{mailto:shivamkanodia01@gmail.com}{shivamkanodia01@gmail.com} | (904)422-4967
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Harcourt Butler }
+\subsection{Technical University,}
+\subsection{Kanpur(HBTU)}
+\descript{B.Tech (Computer Science)}
+\location{May 2014- Jun 2019 \\ Aggregate: 72.10\%}
+\sectionsep
+
+
+\subsection{Methodist High School}
+\descript{Intermediate| Science Stream}
+\location{May 2014 | Aggregate: 93.8\%}
+\sectionsep
+
+
+\subsection{St. Aloysius High School}
+\descript{High School| Science Stream}
+\location{May 2012 | Aggregate: 89\%}
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\textbullet{}Java \\ \textbullet{} Android \\ \textbullet{} MultiThreading \\  \textbullet{} REST API \\ \textbullet{} ASMX Web Services \\
+
+\sectionsep
+
+\subsection{Tools}
+\textbullet{} Eclipse \\ \textbullet{}   Android Studio  \\  \textbullet{} Visual Studio \\ \textbullet{} SQL Server \\ \textbullet{} Sublime \\ \textbullet{} Google Play Console
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/shivam9134}{\bf {shivam9143}} \\
+Bitbucket:// \href{https://bitbucket.org/shivam9143/dsalgointerviewprep/src/master/}{\bf {shivam9143}} \\
+Leetcode://\href{https://leetcode.com/noobiework/}{\bf{noobiework}} \\
+Hackerrank://\href{https://www.hackerrank.com/skji72}{\bf{skji72}} \\
+LinkedIn://  \href{https://www.linkedin.com/in/shivam-kanodia-a42a66145}{\bf{shivamkanodia}} \\
+Stackoverflow://  \href{https://stackoverflow.com/users/5886391/shivam-k}{\bf{shivam-k}}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}  
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{FreeLance}
+\descript{| Developing Android Application from scratch|MechaniX }
+\location{Aug 2018- Present | Kanpur}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Worked on Technologies like \textbf{Google Map Api, SQL Server 2016, ASP.NET Web Services, Adhaar card QR code Scanner, Location Tracking, SMS Gateway API.}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{TCS}
+\descript{| Remote Intern }
+\location{Jun 2018 – Aug 2018 | Kanpur}
+\begin{tightemize}
+\item Developed Android application on Visual ProductIdentification For Blind.
+\item Technologies used were Java, SQL Server 2016, SQl, ASP.NET(C\#), Google Speech API.
+\item The objective of the project was to help blind people in shopping in malls by providing them aid though customized voice assistant, enabling them to give voice
+commands to search for product in store, get details of product etc.
+\item Future prospects :Adding customized Map of stores in app to help blind people Navigate.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Advanced Data Structures and Algorithms \\}
+\descript{ Developed Bitbucket Repository |OpenSource}
+\location{May 2018 – Present | Kanpur}
+\begin{tightemize}
+\item Coded in Java Generic implementation of Data Structures like Trees, Graphs etc and graph and tree Algorithms to improve my problem my problem solving skills, made it opensouce to help others.
+
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{HBTUConnect }
+\descript{| Project}
+\location{NOv 2017 – Dec 2017 | Kanpur}
+\begin{tightemize}
+\item Developed Android application for my college to connect all students and faculty of a department.
+\item Added features like Notice board  and Chat-Room.
+\item Could not work to completion due to time constrains.
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{MKT Softwares}
+\descript{| Android Application Developer Intern}
+\location{May 2017 - July 2017 | Kanpur}
+\begin{tightemize}
+\item  Worked on Android App development.
+\item Worked on technologies ASP.NET ,SQL, JAVA.
+\item Worked on platform tools like SQL SERVER, VISUAL STUDIO,ECLIPSE,ANDROID
+STUDIO,CRYSTAL REPORT(Basic).
+\item Worked on frontend and backend(ASPX Web Services for App).
+\item Developed their complete HRMS app with features like 
+\item Mark Attendance with time and current location, Request leave(Employee side) ,Approve Leave(Admin),Generate and Download PaySlip etc.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Achievements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\runsubsection{Achievements}
+\begin{tightemize}
+\item Secured 92 Rank in Naggaro coding contest out of 2700.
+\item Qualified Codevita 2018 with 1400 Rank.
+\item 2nd Position in Web Designing in ZEST 2K17 ( Technical Fest of H.B.T.U)
+\item 1296 Rank in Goldman Sachs Challenge on HackerRank
+\item Gold Medal in Hacker Rank Problem Solving.
+\item \textbf{Successfuly launched one Application on Google Play.}
+\end{tightemize}
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}

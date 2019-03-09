@@ -1,0 +1,9 @@
+
+----
+This copyright file belongs to HTML5 UP and does not reflect the license for MY PROJECT (Shivam Kanodia's website).
+My Project is protected under the default copyright license (please read LICENSE-ShivamKanodia).
+I have used a template owned by HTML5UP
+----
+
+Escape Velocity by HTML5 UP
+html5up.net
